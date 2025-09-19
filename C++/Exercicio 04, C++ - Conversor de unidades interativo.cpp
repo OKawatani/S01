@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 
-// Função para converter Celsius em Fahrenheit
-double celsiusParaFahrenheit(double celsius) {
+
+double celsiusParaFahrenheit(double celsius) 
+{
     return (celsius * 9.0 / 5.0) + 32.0;
 }
 
-// Função para converter Celsius em Kelvin
-double celsiusParaKelvin(double celsius) {
+double celsiusParaKelvin(double celsius) 
+{
     return celsius + 273.15;
 }
 
