@@ -32,8 +32,8 @@ public:
 
 int main()
 {
-    Personagem p1("Jorge", 3, 1, 3);
-    Personagem p2("Ronaldo", 3, 1, 5);
+    Personagem p1("Personagem 1", 3, 1, 3);
+    Personagem p2("Personagem 2", 3, 1, 5);
 
     p1.atacar(p2);
 
