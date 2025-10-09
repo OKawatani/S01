@@ -27,7 +27,7 @@ class Program
     static void Main()
     {
         
-        MembroDaSociedade aragorn = new MembroDaSociedade("Aragorn", "Humano", "Guardião");
+        MembroDaSociedade aragorn = new MembroDaSociedade("Aragorn", "Humano", "Guardiao");
         MembroDaSociedade legolas = new MembroDaSociedade("Legolas", "Elfo", "Arqueiro");
 
         aragorn.Descrever();
