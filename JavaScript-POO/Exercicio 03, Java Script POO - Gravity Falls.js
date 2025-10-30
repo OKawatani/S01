@@ -80,8 +80,9 @@ dipper.diario.adicionarEnigma(2, "O portal sob a cabana.");
 
 
 console.log("=== Decodificação ===");
-console.log(dipper.diario.decodificar("Dipper", 1)); // acesso correto
-console.log(dipper.diario.decodificar("Bill", 2));   // acesso negado
+console.log(dipper.diario.decodificar("Dipper", 1)); 
+
+console.log(dipper.diario.decodificar("Bill", 2));   
 
 
 const cabana = new CabanaMisterio(dipper);
